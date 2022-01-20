@@ -32,6 +32,7 @@ const styles = makeStyles({
         cursor: "pointer", 
         flexGrow: 0.3,
         display:"flex",
+        paddingLeft:40,
         justifyContent:"center",
         "&:hover": {
             color:  "#4f25c8"
@@ -52,7 +53,10 @@ function NavBar() {
                     Home
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    Services
+                    Our Vision
+                </Typography>
+                <Typography variant="h6" className={classes.menuItem}>
+                    Offering Courses
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
                     About us
