@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/sai/static/css/main.a4f1a455.css",
-    "main.js": "/sai/static/js/main.0f9ee4c6.js",
-    "static/js/787.fd9f533a.chunk.js": "/sai/static/js/787.fd9f533a.chunk.js",
-    "static/media/Chemistry.jpeg": "/sai/static/media/Chemistry.bb64fadf953d95f1c530.jpeg",
-    "static/media/Physics.jpeg": "/sai/static/media/Physics.93f8e92b16e89e029cc1.jpeg",
-    "static/media/logoMobile.svg": "/sai/static/media/logoMobile.1e959ba8949cf3f3b11b2a63082dce03.svg",
-    "static/media/logo.svg": "/sai/static/media/logo.7f799dddcb0ddf62597927844794dbb2.svg",
+    "main.css": "/sai/static/css/main.ce5c0883.css",
+    "main.js": "/sai/static/js/main.e3179733.js",
+    "static/media/Physics_Image.jpg": "/sai/static/media/Physics_Image.eea0578837ed14d38df7.jpg",
+    "static/media/sliderimage3.jpg": "/sai/static/media/sliderimage3.3538165fb2c336221e70.jpg",
+    "static/media/sliderimage1.jpg": "/sai/static/media/sliderimage1.d8db1dead65e8c2a2de5.jpg",
+    "static/media/Chemistry_Image.jpg": "/sai/static/media/Chemistry_Image.e7f0f52fb0e6cdd4f69a.jpg",
+    "static/media/sliderimage2.jpg": "/sai/static/media/sliderimage2.b587d864c458c029f855.jpg",
+    "static/media/Login-Background.jpg": "/sai/static/media/Login-Background.62c4b6be91f313c21cb6.jpg",
     "index.html": "/sai/index.html",
-    "main.a4f1a455.css.map": "/sai/static/css/main.a4f1a455.css.map",
-    "main.0f9ee4c6.js.map": "/sai/static/js/main.0f9ee4c6.js.map",
-    "787.fd9f533a.chunk.js.map": "/sai/static/js/787.fd9f533a.chunk.js.map"
+    "main.ce5c0883.css.map": "/sai/static/css/main.ce5c0883.css.map",
+    "main.e3179733.js.map": "/sai/static/js/main.e3179733.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4f1a455.css",
-    "static/js/main.0f9ee4c6.js"
+    "static/css/main.ce5c0883.css",
+    "static/js/main.e3179733.js"
   ]
 }
