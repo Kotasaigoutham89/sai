@@ -18,7 +18,7 @@ export default function Carouselslider() {
                         style={{width:"100%",height:"600px"}}
                     />
                     <Carousel.Caption>
-                        <h3>Label for first slide</h3>
+                        <h3>An Investment in knowledge pays the best interest</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item >
@@ -29,7 +29,7 @@ export default function Carouselslider() {
                         style={{width:"100%",height:"600px"}}
                     />
                     <Carousel.Caption>
-                        <h3>Label for second slide</h3>
+                        <h3>Failure is the tution you pay for success</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item >
@@ -40,7 +40,7 @@ export default function Carouselslider() {
                         style={{width:"100%",height:"600px"}}
                     />
                     <Carousel.Caption>
-                        <h3>Label for third slide</h3>
+                        <h3>Education is the key to unlock the golden door to freedom</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
