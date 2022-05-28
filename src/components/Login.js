@@ -4,21 +4,22 @@ import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import { useNavigate } from "react-router-dom"
-import { unstable_ownerWindow } from "@mui/utils";
+import axios from 'axios'
+
 export default function Login() {
     const [userid, setUserid] = useState("")
     const [password, setPassword] = useState("")
+    const [message, setMessage] = useState("")
+
     let navigate = useNavigate();
     const Register = () => {
         navigate("/Register");
     }
-    const login = () => {
-        const params ={
-            userid:userid,
-            password:password
-        }
-        
+    const login = async () => {
+        const response = axios.post("http://localhost:5000/Login", { userid: userid, password: password })
+        console.log(JSON.Stringify(response))
     }
+       
     return (
         <>
             <Navbar />

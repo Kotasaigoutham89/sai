@@ -7,16 +7,16 @@ import Ourteaching from "./components/Ourteaching";
 import TutoringSubjects from "./components/TutoringSubjects";
 function Home() {
   return (
-    <>
+    <div>
       <Navbar />
-      <div style={{backgroundColor:"#E5E7EB"}}>
-      <Carouselslider/>
-      <TutoringSubjects/>
-      <Ourteaching/>
-      <CustomerReviews/>
-      <Footer/>
+      <div style={{ backgroundColor: "#E5E7EB" }}>
+        <Carouselslider />
+        <TutoringSubjects />
+        <Ourteaching />
+        <CustomerReviews />
+        <Footer />
       </div>
-    </>
+    </div>
   );
 }
 export default Home;

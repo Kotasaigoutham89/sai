@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import { useNavigate } from "react-router-dom"
 import React, { useState } from 'react'
+import axios from 'axios'
 export default function Register() {
     const [fullname, setFullname] = useState("")
     const [email, setEmail] = useState("")
@@ -14,7 +15,9 @@ export default function Register() {
         navigate("/Login");
     }
     const register=()=>{
-        console.log(fullname,email,password,confirmpassword)
+    axios.post("http://localhost:5000/Register",{fullname:fullname,password:password}).then(
+        arr => console.log(arr.data[arr.data.length-1])
+    )
     }
     return (
         <>
