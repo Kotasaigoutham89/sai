@@ -5,9 +5,11 @@ import Footer from "./components/Footer";
 import Navbar from './components/Navbar';
 import Ourteaching from "./components/Ourteaching";
 import TutoringSubjects from "./components/TutoringSubjects";
+import Modal from "./components/Modal"
 function Home() {
   return (
-    <div>
+    <div style={{position:"relative"}}>
+      <Modal/>
       <Navbar />
       <div style={{ backgroundColor: "#E5E7EB" }}>
         <Carouselslider />

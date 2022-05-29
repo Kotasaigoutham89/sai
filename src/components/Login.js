@@ -25,18 +25,7 @@ export default function Login() {
             <Navbar />
             <div className="Login-Background">
                 <Box
-                    sx={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignContent: 'center',
-                        flexWrap: 'wrap',
-                        paddingTop: 10,
-                        '& > :not(style)': {
-                            m: 1,
-                            width: "40%",
-                            height: 450,
-                        },
-                    }}
+                    className='login-background'
                 >
                     <Paper elevation={3}>
                         <div className="title" style={{ marginTop: 10 }}>Login</div>
