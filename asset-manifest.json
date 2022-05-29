@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/sai/static/css/main.830dbb95.css",
-    "main.js": "/sai/static/js/main.21db06e8.js",
+    "main.css": "/sai/static/css/main.cdac46b2.css",
+    "main.js": "/sai/static/js/main.6563fc2d.js",
     "static/media/Physics_Image.jpg": "/sai/static/media/Physics_Image.eea0578837ed14d38df7.jpg",
     "static/media/sliderimage3.jpg": "/sai/static/media/sliderimage3.3538165fb2c336221e70.jpg",
     "static/media/sliderimage1.jpg": "/sai/static/media/sliderimage1.d8db1dead65e8c2a2de5.jpg",
     "static/media/Chemistry_Image.jpg": "/sai/static/media/Chemistry_Image.e7f0f52fb0e6cdd4f69a.jpg",
     "static/media/sliderimage2.jpg": "/sai/static/media/sliderimage2.b587d864c458c029f855.jpg",
     "static/media/Login-Background.jpg": "/sai/static/media/Login-Background.62c4b6be91f313c21cb6.jpg",
+    "static/media/apple-store.svg": "/sai/static/media/apple-store.0323750a79e815c99ed38479902b6876.svg",
+    "static/media/google-play-store.svg": "/sai/static/media/google-play-store.75a40de00cf82e9ea25a42b56ef5e51a.svg",
     "index.html": "/sai/index.html",
-    "main.830dbb95.css.map": "/sai/static/css/main.830dbb95.css.map",
-    "main.21db06e8.js.map": "/sai/static/js/main.21db06e8.js.map"
+    "main.cdac46b2.css.map": "/sai/static/css/main.cdac46b2.css.map",
+    "main.6563fc2d.js.map": "/sai/static/js/main.6563fc2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.830dbb95.css",
-    "static/js/main.21db06e8.js"
+    "static/css/main.cdac46b2.css",
+    "static/js/main.6563fc2d.js"
   ]
 }
