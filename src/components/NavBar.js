@@ -42,7 +42,7 @@ function Navbar() {
             </div>
             <div className="flex" >
               <ul className='navbar-list' >
-                <li className="navbar-list-item navbar-items" >Home</li>
+                <li onClick={()=>navigate("/sai")} className="navbar-list-item navbar-items" >Home</li>
                 <li className="navbar-list-item navbar-items" >Our Mission</li>
                 <li className="navbar-list-item navbar-items" >Our Students</li>
                 <li className="navbar-list-item navbar-items">About Us</li>

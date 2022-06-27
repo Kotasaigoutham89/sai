@@ -24,10 +24,8 @@ export default function Login() {
         <>
             <Navbar />
             <div className="Login-Background">
-                <Box
-                    className='login-background'
-                >
-                    <Paper elevation={3}>
+                <Box className="Login-Box"> 
+                    <Paper elevation={3} className="login-borders">
                         <div className="title" style={{ marginTop: 10 }}>Login</div>
                         <div>
                             <div className="input-label">

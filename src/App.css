@@ -89,10 +89,17 @@ body {
 
 .Login-Background {
   background-image: url("./images/Login-Background.jpg");
-  height: 800px;
+  height: 725px;
+  width:100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Login-Box{
+  width:40%;
 }
 
 .Login_Box {
@@ -113,18 +120,21 @@ body {
 
 .input-name {
   display: inline-block;
-  width: 195px;
+  width: 120px;
   text-align: center;
 }
 
 .input {
   padding: 10px;
-  width: 50%;
+  width: 60%;
 }
 
 .input-button {
   display: flex;
   justify-content: center;
+}
+.login-borders{
+  padding:10px 80px;
 }
 
 .display-menu {
@@ -170,6 +180,7 @@ body {
   padding-top: 10;
   height: 400px;
   width: 40%;
+  margin-bottom: 40px;
 }
 
 .modal-poster {
@@ -212,6 +223,9 @@ body {
   .customer-review-card {
     height: 450px;
   }
+  .Login-Box{
+    width:60%;
+  }
 }
 
 @media only screen and (max-width: 968px) {
@@ -229,6 +243,15 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .input-name{
+    width:80px;
+  }
+  .login-borders {
+    padding: 10px 10px;
+}
+  .Login-Box{
+    width:80%;
+  }
   .modal-poster{
     width: 85%;
     height: 10%;

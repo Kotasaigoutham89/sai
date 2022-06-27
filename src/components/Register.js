@@ -23,21 +23,8 @@ export default function Register() {
         <>
             <Navbar />
             <div className="Login-Background">
-                <Box
-                    sx={{
-                        display: 'flex',
-                        justifyContent: 'center',
-                        alignContent: 'center',
-                        flexWrap: 'wrap',
-                        paddingTop: 10,
-                        '& > :not(style)': {
-                            m: 1,
-                            width: "40%",
-                            height: 530,
-                        },
-                    }}
-                >
-                    <Paper elevation={3}>
+                <Box className="Login-Box"> 
+                    <Paper elevation={3} className="login-borders">
                         <div className="title" style={{ marginTop: 10 }}>Register</div>
                         <div>
                             <div className="input-label-register">
