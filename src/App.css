@@ -61,6 +61,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding:10px;
 }
 
 .ourteaching-content-title {

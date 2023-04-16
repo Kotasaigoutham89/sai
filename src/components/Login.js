@@ -1,10 +1,10 @@
-import Navbar from "./Navbar";
 import React, { useState } from 'react'
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import { useNavigate } from "react-router-dom"
 import axios from 'axios'
+import Navbar from './NavBar';
 
 export default function Login() {
     const [userid, setUserid] = useState("")
@@ -22,7 +22,7 @@ export default function Login() {
        
     return (
         <>
-            <Navbar />
+        <Navbar/>
             <div className="Login-Background">
                 <Box className="Login-Box"> 
                     <Paper elevation={3} className="login-borders">

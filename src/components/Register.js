@@ -1,10 +1,10 @@
-import Navbar from "./Navbar";
 import Paper from '@mui/material/Paper';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import { useNavigate } from "react-router-dom"
 import React, { useState } from 'react'
 import axios from 'axios'
+import Navbar from './NavBar';
 export default function Register() {
     const [fullname, setFullname] = useState("")
     const [email, setEmail] = useState("")
@@ -21,7 +21,7 @@ export default function Register() {
     }
     return (
         <>
-            <Navbar />
+        <Navbar/>
             <div className="Login-Background">
                 <Box className="Login-Box"> 
                     <Paper elevation={3} className="login-borders">
